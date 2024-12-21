@@ -6,3 +6,9 @@ function getComputerChoice() {
         return "paper";
     } else return "scissors";
 }
+
+function getHumanChoice() {
+    return prompt("What is your choice?");
+}
+
+console.log(getHumanChoice());
